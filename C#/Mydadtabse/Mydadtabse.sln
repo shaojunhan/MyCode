@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{A9ACE9BB-CECE-4E62-9AA4-C7E7C5BD2124}") = "Mydadtabse", "Mydadtabse\Mydadtabse.dbproj", "{0C91CE9A-EC1D-4D1D-8D12-CBA313E2F829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C91CE9A-EC1D-4D1D-8D12-CBA313E2F829}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{0C91CE9A-EC1D-4D1D-8D12-CBA313E2F829}.Default|Any CPU.Build.0 = Default|Any CPU
+		{0C91CE9A-EC1D-4D1D-8D12-CBA313E2F829}.Default|Any CPU.Deploy.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
