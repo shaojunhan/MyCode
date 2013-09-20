@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C_BookIndexList - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP8063.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/C_BookIndexList.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Document\Data Structures\Study\C_String\C_BookIndexList\C_BookIndexList.cpp"
+"E:\Document\Data Structures\Study\C_String\C_BookIndexList\C_BookIndexList_Basic.cpp"
+"E:\Document\Data Structures\Study\C_String\C_BookIndexList\C_BookIndexList_HString.cpp"
+"E:\Document\Data Structures\Study\C_String\C_BookIndexList\C_BookIndexList_LinkList.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP8063.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP8064.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/C_BookIndexList.pdb" /debug /machine:I386 /out:"Debug/C_BookIndexList.exe" /pdbtype:sept 
+".\Debug\C_BookIndexList.obj"
+".\Debug\C_BookIndexList_Basic.obj"
+".\Debug\C_BookIndexList_HString.obj"
+".\Debug\C_BookIndexList_LinkList.obj"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSP8064.tmp"
+<h3>Output Window</h3>
+Compiling...
+C_BookIndexList.cpp
+C_BookIndexList_Basic.cpp
+E:\Document\Data Structures\Study\C_String\C_BookIndexList\C_BookIndexList_Basic.cpp(203) : warning C4101: 'len' : unreferenced local variable
+E:\Document\Data Structures\Study\C_String\C_BookIndexList\C_BookIndexList_Basic.cpp(309) : warning C4018: '<' : signed/unsigned mismatch
+C_BookIndexList_HString.cpp
+C_BookIndexList_LinkList.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+C_BookIndexList.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

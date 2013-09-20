@@ -1,0 +1,8 @@
+//测试数据1,拓扑排序结果:B E C D A F
+6 8
+A B C D E F
+AB AC AD CB CE DE FD FE
+//测试数据2,拓扑排序结果:G E H C B D L A J F K I
+12 16
+A B C D E F G H I J K L
+AB AC AD AL BC CE CG CH DE EG FH IL IJ IK JL KF

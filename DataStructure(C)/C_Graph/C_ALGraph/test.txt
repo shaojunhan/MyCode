@@ -1,0 +1,7 @@
+5 6
+A B C D E
+3
+AB AD BC BE CD CE
+A
+a
+F

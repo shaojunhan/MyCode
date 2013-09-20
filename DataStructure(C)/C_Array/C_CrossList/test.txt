@@ -1,0 +1,16 @@
+十字链表存储稀疏矩阵
+结点类型
+typedef struct OLNode
+{
+	int i,j;//坐标
+	ElemType e;//数值
+	struct Node *right,*down;//向下、向右结点
+}*OLink;
+
+struct CrossList
+{
+	OLink *rhead;//行表头
+	OLink *chead;//列表头
+	int mu,nu,tu;//行列以及非零元数
+}
+

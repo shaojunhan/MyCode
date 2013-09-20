@@ -1,0 +1,6 @@
+4 7
+A B C D
+AB AC CD CA DB DC DA
+A
+a
+E

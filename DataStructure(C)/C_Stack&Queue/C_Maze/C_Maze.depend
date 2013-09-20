@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1351434841 source:e:\文档\数据结构\study\c_stack&queue\c_maze\c_maze_linkqueue.cpp
+	"C_Maze_LinkQueue.h"
+	<stdlib.h>
+	<math.h>
+
+1351434841 e:\文档\数据结构\study\c_stack&queue\c_maze\c_maze_linkqueue.h
+	"C_Maze_Header.h"
+
+1351434841 e:\文档\数据结构\study\c_stack&queue\c_maze\c_maze_header.h
+
+1351434870 source:e:\文档\数据结构\study\c_stack&queue\c_maze\c_maze_linkstack.cpp
+	"C_Maze_LinkStack.h"
+	<stdlib.h>
+	<math.h>
+
+1351434841 e:\文档\数据结构\study\c_stack&queue\c_maze\c_maze_linkstack.h
+	"C_Maze_Header.h"
+
+1351694894 source:e:\文档\数据结构\study\c_stack&queue\c_maze\c_maze.cpp
+	"C_Maze_Basic.h"
+	<stdlib.h>
+
+1351605271 e:\文档\数据结构\study\c_stack&queue\c_maze\c_maze_basic.h
+	"C_Maze_Header.h"
+	"C_Maze_LinkStack.h"
+	"C_Maze_LinkQueue.h"
+
+1351698486 source:e:\文档\数据结构\study\c_stack&queue\c_maze\c_maze_basic.cpp
+	"C_Maze_Basic.h"
+	<stdio.h>
+	<windows.h>
+	<stdlib.h>
+	<time.h>
+

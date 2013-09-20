@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C_BiPTree - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP5585.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/C_BiPTree.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Document\Data Structures\Study\C_Tree\C_BiPTree\C_BiPTree.cpp"
+"E:\Document\Data Structures\Study\C_Tree\C_BiPTree\C_BiPTree_Basic.cpp"
+"E:\Document\Data Structures\Study\C_Tree\C_BiPTree\C_BiPTree_Queue.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP5585.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP5596.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/C_BiPTree.pdb" /debug /machine:I386 /out:"Debug/C_BiPTree.exe" /pdbtype:sept 
+".\Debug\C_BiPTree.obj"
+".\Debug\C_BiPTree_Basic.obj"
+".\Debug\C_BiPTree_Queue.obj"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSP5596.tmp"
+<h3>Output Window</h3>
+Compiling...
+C_BiPTree.cpp
+C_BiPTree_Basic.cpp
+E:\Document\Data Structures\Study\C_Tree\C_BiPTree\C_BiPTree_Basic.cpp(117) : warning C4101: 'p' : unreferenced local variable
+E:\Document\Data Structures\Study\C_Tree\C_BiPTree\C_BiPTree_Basic.cpp(117) : warning C4101: 'q' : unreferenced local variable
+C_BiPTree_Queue.cpp
+E:\Document\Data Structures\Study\C_Tree\C_BiPTree\C_BiPTree_Basic.cpp(149) : warning C4715: 'DestroyBiTree' : not all control paths return a value
+E:\Document\Data Structures\Study\C_Tree\C_BiPTree\C_BiPTree_Basic.cpp(424) : warning C4715: 'PostOrderTraverse' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+C_BiPTree.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C_InertSort - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP51B2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/C_InertSort.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Document\Data Structures\Study\C_Sort\C_InertSort\C_InsertSort.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP51B2.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP51B3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/C_InertSort.pdb" /debug /machine:I386 /out:"Debug/C_InertSort.exe" /pdbtype:sept 
+".\Debug\C_BinInsertSort.obj"
+".\Debug\C_InsertSort.obj"
+".\Debug\C_P2InsertSort.obj"
+".\Debug\C_SimpleInsertSort.obj"
+".\Debug\C_TableInsertSort.obj"
+".\Debug\C_ShellInsertSort.obj"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSP51B3.tmp"
+<h3>Output Window</h3>
+Compiling...
+C_InsertSort.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/C_InertSort.bsc"  ".\Debug\C_BinInsertSort.sbr" ".\Debug\C_InsertSort.sbr" ".\Debug\C_P2InsertSort.sbr" ".\Debug\C_SimpleInsertSort.sbr" ".\Debug\C_TableInsertSort.sbr" ".\Debug\C_ShellInsertSort.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+C_InertSort.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

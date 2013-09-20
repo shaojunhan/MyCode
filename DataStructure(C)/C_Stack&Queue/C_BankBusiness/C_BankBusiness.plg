@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C_BankBusiness - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP3E91.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/C_BankBusiness.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Document\Data Structures\Study\C_Stack&Queue\C_BankBusiness\C_BankBusiness_Basic.cpp"
+"E:\Document\Data Structures\Study\C_Stack&Queue\C_BankBusiness\C_BankBusiness_LinkList.cpp"
+"E:\Document\Data Structures\Study\C_Stack&Queue\C_BankBusiness\C_BankBusiness_LinkQueue.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP3E91.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP3E92.tmp" with contents
+[
+/nologo /subsystem:console /incremental:yes /pdb:"Debug/C_BankBusiness.pdb" /debug /machine:I386 /out:"Debug/C_BankBusiness.exe" /pdbtype:sept 
+".\Debug\C_BankBusiness.obj"
+".\Debug\C_BankBusiness_Basic.obj"
+".\Debug\C_BankBusiness_LinkList.obj"
+".\Debug\C_BankBusiness_LinkQueue.obj"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSP3E92.tmp"
+<h3>Output Window</h3>
+Compiling...
+C_BankBusiness_Basic.cpp
+C_BankBusiness_LinkList.cpp
+C_BankBusiness_LinkQueue.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+C_BankBusiness.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

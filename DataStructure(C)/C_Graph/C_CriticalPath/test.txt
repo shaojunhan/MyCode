@@ -1,0 +1,9 @@
+//测试数据1,结果是:<A,B,6> <B,E,1> <E,G,9> <E,H,7>
+//<G,I,2> <H,I,4>
+9 11
+A B C D E F G H I
+AB6 AC4 AD5 BE1 CE1 DF2 EG9 EH7 FH4 GI2 HI4
+//测试数据2,结果为:<A,C,2> <C,D,4> <D,F,2>
+6 8
+A B C D E F
+AB3 AC2 BD2 BE3 CD4 CF3 DF2 EF1

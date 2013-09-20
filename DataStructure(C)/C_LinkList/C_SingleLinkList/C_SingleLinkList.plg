@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C_SingleLinkList - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP9777.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/C_SingleLinkList.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\文档\数据结构\Study\List\C_SingleLinkList\C_SingleLinkList.cpp"
+"E:\文档\数据结构\Study\List\C_SingleLinkList\C_SingleLinkList_Basic.cpp"
+"E:\文档\数据结构\Study\List\C_SingleLinkList\C_SingleLinkList_Expand.cpp"
+"E:\文档\数据结构\Study\List\C_SingleLinkList\C_SingleLinkList_Tail.cpp"
+"E:\文档\数据结构\Study\List\C_SingleLinkList\C_SingleLinkList_Test.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP9777.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP9778.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/C_SingleLinkList.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\文档\数据结构\Study\List\C_SingleLinkList\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP9778.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP9779.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/C_SingleLinkList.pdb" /debug /machine:I386 /out:"Debug/C_SingleLinkList.exe" /pdbtype:sept 
+".\Debug\C_SingleLinkList.obj"
+".\Debug\C_SingleLinkList_Basic.obj"
+".\Debug\C_SingleLinkList_Expand.obj"
+".\Debug\C_SingleLinkList_Tail.obj"
+".\Debug\C_SingleLinkList_Test.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSP9779.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+C_SingleLinkList.cpp
+C_SingleLinkList_Basic.cpp
+C_SingleLinkList_Expand.cpp
+C_SingleLinkList_Tail.cpp
+C_SingleLinkList_Test.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/C_SingleLinkList.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\C_SingleLinkList.sbr" ".\Debug\C_SingleLinkList_Basic.sbr" ".\Debug\C_SingleLinkList_Expand.sbr" ".\Debug\C_SingleLinkList_Tail.sbr" ".\Debug\C_SingleLinkList_Test.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+C_SingleLinkList.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

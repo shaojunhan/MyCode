@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C_SString - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPF5CE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/C_SString.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\DOCUMENT\DATA STRUCTURES\STUDY\C_STRING\C_SString\C_SString_Test.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSPF5CE.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPF5CF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/C_SString.pdb" /debug /machine:I386 /out:"Debug/C_SString.exe" /pdbtype:sept 
+".\Debug\C_SString.obj"
+".\Debug\C_SString_Basic.obj"
+".\Debug\C_SString_Test.obj"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSPF5CF.tmp"
+<h3>Output Window</h3>
+Compiling...
+C_SString_Test.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/C_SString.bsc"  ".\Debug\C_SString.sbr" ".\Debug\C_SString_Basic.sbr" ".\Debug\C_SString_Test.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+C_SString.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
